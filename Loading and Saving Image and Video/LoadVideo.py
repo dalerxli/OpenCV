@@ -17,6 +17,7 @@ while True:
     
     #Used to convert the image into gray
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
     out.write(frame)
     cv2.imshow('frame', frame)
     cv2.imshow('gray', gray )
